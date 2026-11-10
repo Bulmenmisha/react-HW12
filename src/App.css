@@ -1,0 +1,41 @@
+.app {
+  max-width: 520px;
+  margin: 60px auto;
+  padding: 32px;
+  border-radius: 14px;
+  background: white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: 'Times New Roman', serif;
+  color: #111;
+}
+
+.app h1 {
+  margin: 0 0 24px;
+  font-size: 34px;
+  color: #111;
+}
+
+.app input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  outline: none;
+}
+
+.app input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.values p {
+  margin: 18px 0 0;
+  font-size: 18px;
+}
+
+.label {
+  font-weight: bold;
+}
